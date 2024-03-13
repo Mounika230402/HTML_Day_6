@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery using rowspan and colspan</title>
+    <style>
+        table,td,th{
+            border: 2px solid yellow;
+            border-collapse: collapse;
+            background-color:blueviolet;
+            margin-left:5%;
+            margin-right: 5%;
+        }
+        img{
+            height:200px;
+            width:200px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td><figure><img src="./images/Anushka_shetty.jpg">
+                <figcaption></figcaption></figure></td>
+            <td><figure><img src="./images/Prabhas.jpg">
+            <figcaption></figcaption></figure></td>
+            <td colspan="2" style="text-align: center;"><figure height="280" width="280"><img src="./images/Ramya_Krishnan.jpg">
+                <figcaption></figcaption></figure></td>
+            <!--<td><figure><img src="../../images/Actors/Rana.jpg">
+                <figcaption></figcaption></figure></td>-->
+            <td><figure><img src="./images/Sathyaraj.jpg">
+                <figcaption></figcaption></figure></td>
+            
+        </tr>
+        <tr>
+            <td rowspan="2"><figure><img src="./images/csk.jpg">
+                <figcaption></figcaption></figure></td>
+            <td><figure><img src="./images/kl.jpg">
+                <figcaption></figcaption></figure></td>
+            <td><figure><img src="./images/rohit.jpg">
+                <figcaption></figcaption></figure></td>
+            <td><figure><img src="./images/srh.jpg">
+                <figcaption></figcaption></figure></td>
+            <td><figure><img src="./images/kkr.jpg">
+                <figcaption></figcaption></figure></td>
+        </tr>
+        <tr>
+            <!--<td><figure><img src="../../images/Captain/dc.jpg">
+                <figcaption></figcaption></figure></td>-->
+            <td><figure><img src="./images/gt.jpg">
+                <figcaption></figcaption></figure></td>
+            <td><figure><img src="./images/pbks.jpg">
+                <figcaption></figcaption></figure></td>
+            <td><figure><img src="./images/rr.jpg">
+                <figcaption></figcaption></figure></td>
+            <td><figure><img src="./images/rcb.jpg">
+                <figcaption></figcaption></figure></td>
+        </tr>
+        <tr>
+            <td><figure><img src="./images/coder.jpg">
+                <figcaption></figcaption></figure></td>
+            <td><figure><img src="./images/csk.jpg">
+                <figcaption></figcaption></figure></td>
+            <td><figure><img src="./images/dcx.jpg">
+                <figcaption></figcaption></figure></td>
+            <!--<td><figure><img src="../../images/logos/gt.jpg">
+                <figcaption></figcaption></figure></td>-->
+            <td colspan="2" rowspan="3" style="text-align: center;"><figure><img src="./images/kkr.jpg">
+                <figcaption></figcaption></figure></td>
+        </tr>
+        <tr>
+            <td><figure><img src="./images/lsg.jpg">
+                <figcaption></figcaption></figure></td>
+            <td><figure><img src="./images/mi.jpg">
+                <figcaption></figcaption></figure></td>
+            <td><figure><img src="./images/pbks.jpg">
+                <figcaption></figcaption></figure></td>
+            <!--<td><figure><img src="../../images/logos/rcb.jpg">
+                <figcaption></figcaption></figure></td>
+            <td><figure><img src="../../images/logos/rr.jpg">
+                <figcaption></figcaption></figure></td>-->
+        </tr>
+    </table>
+</body>
+</html>
